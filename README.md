@@ -1,12 +1,13 @@
 Predicting Breast Cancer in a patient
 
-##Abstract: 
-#### --> Breast cancer represents one of the diseases that make a high number of deaths every year.
+Abstract: 
+
+--> Breast cancer represents one of the diseases that make a high number of deaths every year.
 -->It is the most common type of all cancers and the main cause of women's deaths worldwide.
 --> Classification and data mining methods are an effective way to classify data.
 --> Especially in the medical field, where those methods are widely used in diagnosis and analysis to make decisions.
 
-##**Problem Statement:**
+Problem Statement:
 
 --> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques.
 --> Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy.
@@ -49,3 +50,23 @@ For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst R
 
 #**Learning Outcome:**
 The students will get a better understanding of how the variables are linked to each other and build an SVM model. Apart from various performance measures, they will also learn about hyperparameter tuning with cross-validation to improve these scores.
+
+
+
+Performance comparions:
+
+![Performance comparision](https://user-images.githubusercontent.com/110006271/202886344-7b63b2c9-ef28-49c3-ad62-66f991aa6f0d.png)
+
+
+Scaled performance comparions
+
+
+![Scaled performance comparions](https://user-images.githubusercontent.com/110006271/202886372-4422f0cb-19e0-49ad-ade7-5488e3e9db45.png)
+
+
+Displaying the confision matrix
+
+![Displaying the confusion matrix](https://user-images.githubusercontent.com/110006271/202886488-2ea953e7-550d-494a-a3f4-2a947482d649.png)
+
+
+
