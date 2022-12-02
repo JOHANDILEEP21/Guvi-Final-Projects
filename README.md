@@ -53,7 +53,63 @@ The students will get a better understanding of how the variables are linked to 
 
 
 
-Performance comparions:
+# BREAST CANCER
+
+--> Breast cancer is cancer that develops from breast tissue.
+
+--> It's a disease in which malignant(cancer) cells from in the tissues of the breast.
+
+--> When a tumor is diagnosed as benign, doctors will usually leave it alone rather than remove it.
+
+
+# Technology 
+
+##Machine learning with python
+
+### -->  Python libraries such as pandas, numpy, Sklearn library used with manu subordinate models such as model_selection, classifiers, and metrics etc...
+
+### --> Google Colab Notebook for implementation purpose.
+
+--> ![MLA_Image](https://user-images.githubusercontent.com/110006271/205318951-c1f714d8-ff3d-4abb-8f56-95464686664f.jpg)
+
+# --> Dataset
+
+## --> Attributes:
+
+### --> Diagnosis: The diagnosis of breast tissues(1=malignant, 0=benign)
+
+### --> mean_radius: mean of distances from center to points on the perimeter
+
+### --> mean_texture: standard deviation of gray-scale values.
+
+## --> mean_perometer: mean size of the core tumor.
+
+## --> mean_area
+
+### --> mean_smoothness: mean of local variation in radius lengths.
+
+# Exploring the DATA
+
+# Data Preprocessing
+
+## Splitting X, y for the train and test data.
+
+## Applying the regression/ classification models on the dataset..
+
+# Classification and Regression Tree:
+
+## --> It's the classification techniques used machine learning where the data is continously split according to a certain parameter.
+
+# Support Vector Machine (SVM):
+
+## SVM classifier is a supervised machine learning models with associated learning alogorithms that analyze data used for classification and regression analysis.
+
+# GaussianNB:
+
+# K Nearest Neighbors (KNN)
+
+
+# Model used vs Accuracy -- Performance comparions:
 
 ![Performance comparision](https://user-images.githubusercontent.com/110006271/202886344-7b63b2c9-ef28-49c3-ad62-66f991aa6f0d.png)
 
@@ -69,4 +125,34 @@ Displaying the confision matrix
 ![Displaying the confusion matrix](https://user-images.githubusercontent.com/110006271/202886488-2ea953e7-550d-494a-a3f4-2a947482d649.png)
 
 
+# Classification report:
 
+## --> A cassification report is used to measure the quality of predictions from a classification algrithm.
+
+    --> The report shows the main classification metrics precision, recall and f1-score on a per-class basis.
+    
+    --> The metrics are calculated by using true and false positives, true and false negatives. 
+    
+    --> Positive and negative in this case are generic names for the preidcted classed.
+    
+    --> There are four ways to chech if the predictions are right or wrong.
+    
+        --> TP/True Positive: When a case was positive and predicted positive.
+        
+        --> TN/True Negative: When a case was negative and predicted negative.
+        
+        --> FN/False Negative: When a case was positive and predicted negative.
+        
+        --> FP/False Positive: When a case was Negative and predicted positive.
+        
+    Precision: Accuracy of positive predictions. precision = TP/(TP+FP)
+    
+    Recall: Fraction of positives that were correctly identified. Recall = TP/(TP/ FN)
+    
+    F1 Score: Harmonic mean of precision and recall F1 Score = 2*(recall*precision)/(recall+precision)
+    
+    
+Conclusion:
+
+    --> Based on accuracy, confusion matrix and classification report. We can say that Support Vector Classifiter is best for our problem.
+    
