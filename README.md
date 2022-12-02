@@ -1,24 +1,24 @@
 # Predicting Breast Cancer in a patient
 
-##Abstract: 
+# Abstract: 
 
 --> Breast cancer represents one of the diseases that make a high number of deaths every year.
 -->It is the most common type of all cancers and the main cause of women's deaths worldwide.
 --> Classification and data mining methods are an effective way to classify data.
 --> Especially in the medical field, where those methods are widely used in diagnosis and analysis to make decisions.
 
-##Problem Statement:
+# Problem Statement:
 
 --> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques.
 --> Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy.
 
-###Dataset Information:
+## Dataset Information:
 The dataset consists of several predictor variables and one target variable, Diagnosis.
 The target variable has values 'Benign' and 'Malignant', where 'Benign' means that the cells are not harmful or there is no cancer and 'Malignant' means that the patient has cancer and the cells have a harmful effect
 
-###Variable Description:
+### Variable Description:
 
-###Column Description
+### Column Description
 
 --> radius Mean of distances from center to points on the perimeter
 --> texture Standard deviation of gray-scale values
@@ -36,7 +36,7 @@ The target variable has values 'Benign' and 'Malignant', where 'Benign' means th
 The mean, standard error and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features.
 For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
 
-###Scope:
+### Scope:
 
 ● Analysing the available data and exploring relationships among given variables
 
@@ -64,7 +64,7 @@ The students will get a better understanding of how the variables are linked to 
 
 # Technology 
 
-##Machine learning with python
+## Machine learning with python
 
 ### -->  Python libraries such as pandas, numpy, Sklearn library used with manu subordinate models such as model_selection, classifiers, and metrics etc...
 
@@ -152,7 +152,7 @@ Displaying the confision matrix
     F1 Score: Harmonic mean of precision and recall F1 Score = 2*(recall*precision)/(recall+precision)
     
     
-Conclusion:
+# Conclusion:
 
     --> Based on accuracy, confusion matrix and classification report.
     --> We can say that Support Vector Classifiter is best for our problem.
