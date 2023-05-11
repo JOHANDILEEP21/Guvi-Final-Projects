@@ -172,3 +172,9 @@ Displaying the confision matrix
     --> Based on accuracy, confusion matrix and classification report.
     --> We can say that Support Vector Classifiter is best for our problem.
     
+   
+ # ** Project 2 **
+ 
+ ## ** E-Customer Segmentation ** 
+ 
+    
